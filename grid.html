@@ -66,51 +66,7 @@
     grid-row: 4/6;
     grid-column: 3/5;
 }
-.container{
-    display: grid;
-    gap: 20px;
-    color: red;
-    height: 700px;
-    width: 80%;
-    margin: 200px auto;
-    grid-template-areas: 
-    "F F F F  F F F F  F F F F  F F F G  G G G G"
-    "F F F F  F F F F  F F F F  F F F G  G G G G"
-    "F F F F  F F F F  F F F F  F F F G  G G G G"
-    "F F F F  F F F F  F F F F  F F F G  G G G G"
-    "H H H H  H H H H  H H I I  I I I I  I I I I" 
-    "H H H H  H H H H  H H J J  J J J J  J J J J"
-    "H H H H  H H H H  H H J J  J J J J  J J J J"
-    ;
-}
-.grid-6{
-    display: grid;
-    place-items: center;
-    grid-area: F;
-    background-color: rgb(255, 72, 0);
-}.grid-7{
-    display: grid;
-    place-items: center;
-    grid-area: G;
-    background-color:  rgb(255, 153, 0);
-}.grid-8{
-    display: grid;
-    place-items: center;
-    grid-area: H;
-    background-color: rgb(5, 255, 101);
-  
-}.grid-9{
-    display: grid;
-    place-items: center;
-    grid-area: I;
-    background-color:  rgb(45, 189, 255);
-}
-.grid-10{
-    display: grid;
-    place-items: center;
-    grid-area: J;
-    background-color:  rgb(45, 189, 255);
-}
+
 </style>
 <body>
     <a href="./index.html" class="link-tag">Index</a>
@@ -120,13 +76,6 @@
         <div class="grid-3">c</div>
         <div class="grid-4">d</div>
         <div class="grid-5">e</div>
-    </div>
-    <div class="container">
-        <div class="grid-6">f</div>
-        <div class="grid-7">g</div>
-        <div class="grid-8">h</div>
-        <div class="grid-9">i</div>
-        <div class="grid-10">j</div>
     </div>
 </body>
 </html>
